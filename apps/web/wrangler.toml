@@ -1,0 +1,12 @@
+name = "cloudflare-saas-starter"
+compatibility_date = "2024-03-29"
+compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = ".vercel/output/static"
+
+[placement]
+mode = "smart"
+
+[[d1_databases]]
+binding = "DATABASE"
+database_name = "new-commit"
+database_id = "6e4ffe08-4acc-4436-9677-9fa0d2cf3bfa"
